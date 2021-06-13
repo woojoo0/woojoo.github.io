@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Gothic A1', sans-serif;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+
+.title1 {
+	display: block;
+	position: fixed;
+	transform: rotate(-90deg);
+	left: -90px;
+	top: 560px;
+	line-height: 30px;
+	letter-spacing: -0.3px;
+
+}
+
+	.title1_k {
+		display: inline-block;
+		position: relative;
+		font-size: 20px;
+		right: 50px;
+	}
+
+	.title1_e {
+		display: inline-block;
+		position: relative;
+		font-size: 20px;
+}
+
+.title2 {
+	display: block;
+	position: fixed;
+	transform: rotate(90deg);
+	left: 1700px;
+	top: 350px;
+	z-index: 1;
+}
+
+	.title2_k {
+		display: inline-block;
+		position: absolute;
+		font-size: 20px;
+		right: 40px;
+		width: 120px;
+	}
+
+	.title2_e {
+		display: inline-block;
+		position: absolute;
+		font-size: 20px;
+		width: 200px;
+
+	}
+
+.templateruler {
+	margin-top: 20px;
+	width: 1700px;
+}
+
+	.ruler {
+		position: absolute;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 1500px;
+		left: 150px;
+		transform: rotate(-4deg);
+	}
+
+	.symbol {
+		position: absolute;
+		transform: rotate(-4deg);
+		z-index: 1;
+	}
+
+		.symbol.about {
+			width: 55px;
+			top: 570px;
+			left: 284px;
+			cursor: pointer;
+		}
+
+		.symbol.video {
+			width: 70px;
+			top: 684px;
+			left: 294px;
+			cursor: pointer;
+		}
+
+		.symbol.pati {
+			width: 70px;
+			top: 770px;
+			left: 296px;
+			cursor: pointer;
+		}
+
+		.symbol.title {
+			width: 130px;
+			top: 170px;
+			left: 230px;
+		}
+
+		.symbol.woojy {
+			width: 260px;
+			top: 160px;
+			left: 495px;
+		}
+
+		.symbol.ahnhj {
+			width: 240px;
+			top: 139px;
+			left: 840px;
+		}
+
+		.symbol.junhk {
+			width: 240px;
+			top: 120px;
+			left: 1150px;
+		}
+
+		.symbol.leesy {
+			width: 280px;
+			top: 510px;
+			left: 515px;
+		}
+
+		.symbol.leehw {
+			width: 270px;
+			top: 470px;
+			left: 845px;
+		}
+
+		.symbol.kimjh {
+			width: 290px;
+			top: 452px;
+			left: 1163px;
+		}
+
+
+.home {
+	width: 100%;
+}
+
+/*.woojy_symbol {
+	position: absolute;
+	width: 100%;
+
+	/*left: -450px;*/
+	/*transform: rotate(15deg);*/
+}
+
+/*.woojy_a_t {
+	position: absolute;
+	width: 300px;
+}
+
+.woojy_a_1 {
+	width: 300px;
+}
+*/
+
+#modal{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	z-index: 999;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+}
+
+.modal_content {
+	position: relative;
+	background-color: white;
+	padding: 30px;
+
+	top: 20%;
+
+	margin-right: 50%;
+	margin-left: 50%;
+	left: -200px;
+	width: 400px;
+	height: 530px;
+
+	line-height: 30px;
+	letter-spacing: -0.2px;
+
+	border: 6px dotted;
+	z-index: 999;
+}
+
+.about {
+	padding: 10px;
+}
+
+/*
+.work_a {
+	width: 700px;
+}
+
+.work_a_img {
+	width: 700px;
+}
+
+.work_content {
+	position: absolute;
+	display: inline-block;
+	width: 200px;
+	margin-left: 16px;
+}*/
+
+h1 {
+	margin: 10px;
+}
+
+.
+
+.work_img {
+	width: 200px;
+}
+/*
+.name {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.work {
+	position: absolute;
+	display: inline-block;
+	top: 100px;
+	left: 100px;
+}
+
+.work_img {
+	position: absolute;
+	width: 400px;
+	display: inline;
+}
+*/
+
+
+/*@media all and (min-width:320px) and (max-width:768px) {
+	.ruler {
+		transform: rotate(90deg);
+		width: 150%;
+		height: 150%;
+		margin-top: 50%;
+		margin-bottom: 50%;
+	}
+}
+*/
