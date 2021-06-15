@@ -9,3 +9,13 @@ $(document).ready(function(){
 	});
 
 });
+
+// $(function(){
+// 	$('img[usemap]').rwdImageMaps();
+// 	$("#img").width("100%");
+// });
+
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+	$('#img').width("100%");
+});

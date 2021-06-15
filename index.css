@@ -187,29 +187,29 @@ body {
 	background: rgba(0,0,0,0.3);
 }
 
-.modal_content {
-	position: relative;
-	background-color: white;
-	padding: 30px;
+	.modal_content {
+		position: relative;
+		background-color: white;
+		padding: 30px;
 
-	top: 20%;
+		top: 20%;
 
-	margin-right: 50%;
-	margin-left: 50%;
-	left: -200px;
-	width: 400px;
-	height: 530px;
+		margin-right: 50%;
+		margin-left: 50%;
+		left: -200px;
+		width: 400px;
+		height: 530px;
 
-	line-height: 30px;
-	letter-spacing: -0.2px;
+		line-height: 30px;
+		letter-spacing: -0.2px;
 
-	border: 6px dotted;
-	z-index: 999;
-}
+		border: 6px dotted;
+		z-index: 999;
+	}
 
-.about {
-	padding: 10px;
-}
+	.about {
+		padding: 10px;
+	}
 
 /*
 .work_a {
@@ -226,16 +226,15 @@ body {
 	width: 200px;
 	margin-left: 16px;
 }*/
-
+/*
 h1 {
 	margin: 10px;
 }
 
-.
 
 .work_img {
 	width: 200px;
-}
+}*/
 /*
 .name {
 	position: absolute;
@@ -258,10 +257,67 @@ h1 {
 */
 
 
+/* 모바일 디바이스 */
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
-@media all and (min-width:320px) and (max-width:768px) {
-	body {
-		overflow: auto;
+	* {
+		margin: 0;
+		padding: 0;
 	}
+
+	html {
+		font-family: 'Gothic A1', sans-serif;
+	}
+
+	body {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		
+	}
+
+	.templateruler {
+		display: none;
+	}
+
+	.templateruler_m {
+		position: relative;
+		display: block;
+		line-height: auto;
+	}
+
+	.home_m {
+		position: fixed;
+		display: block;
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+		margin-right: 0%;
+		margin-left: 0%;/*
+		margin-top: 50%;
+		margin-bottom: 50%;*/
+		vertical-align:middle;
+	}
+
 }
+
+/* 태블릿 디바이스 */
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+	.templateruler_m {
+		display: none;
+	}
+
+}
+
+/* 랩탑 및 와이드 스크린 디바이스 */
+
+@media screen and (min-width: 1025px) {
+
+	.templateruler_m {
+		display: none;
+	}
+
+} 
