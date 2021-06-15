@@ -299,6 +299,10 @@ h1 {
 		margin-bottom: 50%;*/
 		vertical-align:middle;
 	}
+	
+	area {
+		display: block;
+	}
 
 }
 
