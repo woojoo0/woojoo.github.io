@@ -43,12 +43,6 @@
 		left: -25px;	
 	}
 
-	.WEB {
-		position: relative;
-		display: block;
-		margin-bottom: 15%;
-	}
-
 	.div_WORK {
 		position: relative;
 		display: block;
@@ -135,6 +129,23 @@
 			text-align: center;
 		}
 
+	.WEB {
+		position: relative;
+		display: block;
+		width: 100px;
+
+		margin-top: 20px;
+		margin-left: 50%;
+		margin-right: 50%;
+		padding: 5px;
+		bottom: -20px;
+		left: -55px;
+
+		line-height: 18px;
+		letter-spacing: -0.4px;
+		font-size: 11px;
+		border: 3px dotted deeppink;
+	}
 
 	.div_PATI {
 		position: relative;
@@ -142,14 +153,16 @@
 		margin-top: 100px;
 		margin-left: 70px;
 		margin-right: 70px;
+		margin-bottom: 40px;
 	}
 
 		.PATI {
 			position: relative;
 			display: block;
 			margin-left: 100%;
-			margin-bottom: 20px;
-			bottom: -15%;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			top: -20px;
 			left: -15%;
 			width: 15%;
 		}
