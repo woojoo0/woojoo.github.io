@@ -1,0 +1,159 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+		font-family: 'Gothic A1', sans-serif;
+	}
+
+	body {
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		
+	}
+
+.page_DETAIL {
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+	p {
+		text-align: center;
+		letter-spacing: -0.2px;
+		font-size: 15px;
+	}
+
+	.NAME {
+		position: relative;
+		display: block;
+		width: 50px;
+		background-color: black;
+		color: white;
+
+		margin-top: 20%;
+		margin-bottom: 15%;
+		margin-right: 50%;
+		margin-left: 50%;
+		left: -25px;	
+	}
+
+	.div_WORK {
+		position: relative;
+		display: block;
+		margin-bottom: 70px;
+	}
+
+		.WORK {
+			position: relative;
+			display: block;
+			margin-left: 50%;
+			margin-right: 50%;
+			margin-top: 4%;
+			margin-bottom: 7%;
+			max-width: 100%;
+			left: -35%;
+			width: 70%;
+		}
+
+		.WORK_title {
+			line-height: 25px;
+			text-decoration: underline wavy #44FF30;
+		}
+
+		.WORK_title.DETAIL {
+			position: relative;
+			display: block;
+			width: 100px;
+
+			margin-top: 20%;
+			margin-bottom: 15%;
+			margin-right: 50%;
+			margin-left: 50%;
+			left: -50px;	
+		}
+
+		.WORK_caption {
+			position: relative;
+			display: block;
+
+			margin-left: 70px;
+			margin-right: 70px;
+
+			line-height: 18px;
+			letter-spacing: -0.4px;
+			font-size: 11px;
+		}
+
+		a {
+		    color: black;
+			text-decoration: none;
+		}
+
+		.WORK_statement {
+			position: relative;
+			display: block;
+
+			margin-top: 30px;
+			margin-bottom: 50px;
+			margin-left: 70px;
+			margin-right: 70px;
+
+			line-height: 30px;
+			letter-spacing: -0.3px;
+			text-align: left;
+		}
+
+		.italic {
+			position: relative;
+			display: block;
+
+			margin-left: 15px;
+			margin-right: 15px;
+
+			font-size: 14px;
+			line-height: 30px;
+			letter-spacing: -0.3px;
+			text-align: center;
+
+		}
+
+
+	.div_PATI {
+		position: relative;
+		display: block;
+		margin-top: 100px;
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+
+		.PATI {
+			position: relative;
+			display: block;
+			margin-left: 100%;
+	margin-bottom: 20px;
+			bottom: -15%;
+			left: -15%;
+			width: 15%;
+		}
+
+}
+
+/* 태블릿 디바이스 */
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+
+}
+
+/* 랩탑 및 와이드 스크린 디바이스 */
+
+@media screen and (min-width: 1025px) {
+
+
+} 
