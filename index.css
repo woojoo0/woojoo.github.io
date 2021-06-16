@@ -13,7 +13,7 @@ body {
 	overflow: hidden;
 	
 }
-/*
+
 .title1 {
 	display: block;
 	position: fixed;
@@ -61,27 +61,94 @@ body {
 		font-size: 20px;
 		width: 200px;
 
-	}*/
+	}
 
 .templateruler {
-	position: absolute;
-	margin-rigjt: 50%;
-	margin-left: 50%;
-	left: -50%;
-	width: 100%;
-	height: auto;
-
+	margin-top: 20px;
+	width: 1700px;
 }
 
+	.ruler {
+		position: absolute;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 1500px;
+		left: 150px;
+		transform: rotate(-4deg);
+	}
+
+	.symbol {
+		position: absolute;
+		transform: rotate(-4deg);
+		z-index: 1;
+	}
+
+		.symbol.about {
+			width: 55px;
+			top: 570px;
+			left: 284px;
+			cursor: pointer;
+		}
+
+		.symbol.video {
+			width: 70px;
+			top: 684px;
+			left: 294px;
+			cursor: pointer;
+		}
+
+		.symbol.pati {
+			width: 70px;
+			top: 770px;
+			left: 296px;
+			cursor: pointer;
+		}
+
+		.symbol.title {
+			width: 130px;
+			top: 170px;
+			left: 230px;
+		}
+
+		.symbol.woojy {
+			width: 260px;
+			top: 160px;
+			left: 495px;
+		}
+
+		.symbol.ahnhj {
+			width: 240px;
+			top: 139px;
+			left: 840px;
+		}
+
+		.symbol.junhk {
+			width: 240px;
+			top: 120px;
+			left: 1150px;
+		}
+
+		.symbol.leesy {
+			width: 280px;
+			top: 510px;
+			left: 515px;
+		}
+
+		.symbol.leehw {
+			width: 270px;
+			top: 470px;
+			left: 845px;
+		}
+
+		.symbol.kimjh {
+			width: 290px;
+			top: 452px;
+			left: 1163px;
+		}
+
+
 .home {
-	position: absolute;
-	margin-right: 50%;
-	margin-left: 50%;
-	left: -50%;
-	max-width: 100%;
-	max-height: auto;
 	width: 100%;
-	height: auto;
 }
 
 /*.woojy_symbol {
@@ -102,7 +169,7 @@ body {
 }
 */
 
-/*#modal{
+#modal{
 	display: none;
 	position: absolute;
 	width: 100%;
@@ -142,7 +209,7 @@ body {
 
 	.about {
 		padding: 10px;
-	}*/
+	}
 
 /*
 .work_a {
@@ -213,9 +280,6 @@ h1 {
 	.templateruler {
 		display: none;
 	}
-	
-		.home {
-			display: none;
 
 	.templateruler_m {
 		position: relative;
@@ -236,9 +300,9 @@ h1 {
 			vertical-align:middle;
 		}
 
-/* 		area {
+		area {
 			display: block;
-		} */
+		}
 
 }
 
@@ -249,9 +313,6 @@ h1 {
 	.templateruler_m {
 		display: none;
 	}
-	
-	.home_m {
-		display: none;
 
 }
 
@@ -262,9 +323,5 @@ h1 {
 	.templateruler_m {
 		display: none;
 	}
-	
-	.home_m {
-		display: none;
-	}
-	
+
 } 
