@@ -212,6 +212,9 @@ h1 {
 	.templateruler {
 		display: none;
 	}
+	
+		.home {
+			display: none;
 
 	.templateruler_m {
 		position: relative;
