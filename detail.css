@@ -63,7 +63,9 @@
 
 		.WORK_title {
 			line-height: 25px;
-			text-decoration: underline wavy #44FF30;
+			text-decoration-line: underline;
+			text-decoration-style: wavy;
+			text-decoration-color: #44FF30;
 		}
 
 		.WORK_title.DETAIL {
@@ -104,8 +106,9 @@
 			margin-left: 70px;
 			margin-right: 70px;
 
+			font-size: 15px;
 			line-height: 30px;
-			letter-spacing: -0.3px;
+			letter-spacing: -0.4px;
 			text-align: left;
 		}
 
@@ -136,7 +139,7 @@
 			position: relative;
 			display: block;
 			margin-left: 100%;
-	margin-bottom: 20px;
+			margin-bottom: 20px;
 			bottom: -15%;
 			left: -15%;
 			width: 15%;
