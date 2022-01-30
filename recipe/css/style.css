@@ -1,0 +1,238 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: inherit;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: white;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: monospace;
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+a:visited, a:hover{
+  color: unset;
+  text-decoration: none;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 13px;
+}
+
+/* ----- */
+
+.list{
+	position: relative;
+	vertical-align: top;
+	width: 300px;
+	height: 400px;
+	background-image: url('../images/note.png');
+	margin-left: 50%;
+	margin-right: 50%;
+	left: -150px;
+	top: 250px;
+	text-align: center;
+}
+
+ul{
+	position: relative;
+	top: 60px;
+	left: 18px;
+}
+
+.list ul{
+	position: relative;
+	top: 95px;
+	left: 19px;
+}
+
+li{
+	margin: 6px;
+}
+
+.list li{
+	margin: 10px;
+}
+
+.notes{
+	position: relative;
+	width: 1200px;
+	height: 400px;
+	margin-left: 50%;
+	margin-right: 50%;
+	left: -600px;
+	top: 250px;
+	text-align: center;	
+}
+
+.note{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 400px;
+	background-image: url('../images/note.png');
+	text-align: center;
+}
+
+.cover{
+	top: 70px;
+}
+
+img{
+	width: 150px;
+	margin-top: 25px;
+}
+
+.ingredient{
+	text-decoration: underline;
+}
+
+.recipe{
+	position: relative;
+	width: 170px;
+	height: 270px;
+	top: 60px;
+	left: 80px;
+	overflow: auto;
+}
+
+.recipe ol{
+	text-align: left;
+	list-style-type: decimal;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.complete{
+	position: relative;
+	margin-top: 25px;
+	list-style: none;
+	text-align: right;
+	right: 20px;
+}
+
+.buttons{
+	position: relative;
+	width: 250px;
+	margin-left: 50%;
+	margin-right: 50%;
+	top: 240px;
+	left: -41px;
+}
+
+.button{
+	width: 30px;
+}
+
+.button.none{
+	visibility: hidden;
+}
